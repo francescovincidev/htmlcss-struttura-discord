@@ -5,3 +5,50 @@
     box-sizing: border-box;
 }
 
+
+/* UTILITY */
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+header nav{
+    background-color: #ADD8E6; 
+}
+
+.navigation-bar {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+
+
+.navigation-bar .menu{
+    background-color: #DAA520;
+    width: 100%;
+    padding:5px;
+    border: 2px dashed black;
+
+
+}
+
+.navigation-bar div.menu ul{
+    list-style-type: none;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.navigation-bar  .login{
+    text-align: right;
+}
+
