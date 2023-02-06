@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 
@@ -126,13 +127,21 @@ footer{
 
 }
 
-.footer-menu{
-    border: 2px dashed black;
-    padding: 10px auto 40px;
+.footer-menu {
+
     background-color: #23272A;
+    border: 2px dashed black;
+
 
 
 }
+
+nav.flex{
+    padding: 10px 0 10px;
+
+}
+
+
 
 .main-footer-menu{
     width:30%;
@@ -147,6 +156,33 @@ footer{
     width:calc(70%/4);
     background-color: #20B2AA;
     border: 2px dashed white;
+
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.closing-bar{
+    background-color: #7FFFD4;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+
+}
+
+.closing-logo{
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.closing-button{
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    padding: 5px;
+
 
 }
 
