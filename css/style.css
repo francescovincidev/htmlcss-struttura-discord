@@ -18,6 +18,8 @@
 
 
 /* HEADER */
+
+/* navigation bar */
 header nav{
     background-color: #ADD8E6; 
 }
@@ -51,4 +53,20 @@ header nav{
 .navigation-bar  .login{
     text-align: right;
 }
+
+/* banner */
+.banner{
+    background-color: #00008B;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    background-color: #EE82EE;
+    height: 300px;
+    width: 60%;
+    border: 2px dashed black;
+
+}   
 
